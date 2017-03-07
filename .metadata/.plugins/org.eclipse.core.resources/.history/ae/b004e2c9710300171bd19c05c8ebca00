@@ -1,0 +1,32 @@
+package adventureGame;
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+/**
+ * @author am312792
+ *
+ */
+public class AdventureGame 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in);
+		int userName = 0;
+		int userPick = 0;
+		int cave = 0;
+		int forest = 0;
+		
+		JOptionPane.showMessageDialog(null, "You wake up not remembering anything.");
+		JOptionPane.showMessageDialog(null, "You are by a mouth of a cave and in a middle of a forest.");
+		JOptionPane.showMessageDialog(null, "Before you begin looking around you think its best to come up with a name just in case you find somebody.");
+		JOptionPane.showMessageDialog(null, "Then...a name pops into your head  and you know that it is yours.");
+		JOptionPane.showInputDialog(null, "Insert Name.");
+		JOptionPane.showMessageDialog(null, "now that you have a name where do you want to go first?");
+		JOptionPane.showInputDialog(null, "Cave or Forest");
+			if(userPick == cave)
+			{
+				JOptionPane.showMessageDialog(null, "Then...a name pops into your head  and you know that it is yours.");
+			}
+	}
+
+}
