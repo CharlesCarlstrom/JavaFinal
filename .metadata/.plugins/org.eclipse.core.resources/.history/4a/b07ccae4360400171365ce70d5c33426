@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package adventureGame;
+
+/**
+ * @author AM312792
+ *
+ */
+public class Cave {
+
+	/**
+	 * @param args
+	 */
+	public static void cavePath() 
+	{
+		
+
+	}
+
+}
