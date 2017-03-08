@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package adventureGame;
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author AM312792
+ *
+ */
+public class Cave {
+
+	public static void cavePath() 
+	{
+		JOptionPane.showMessageDialog(null, "");
+
+	}
+
+}
