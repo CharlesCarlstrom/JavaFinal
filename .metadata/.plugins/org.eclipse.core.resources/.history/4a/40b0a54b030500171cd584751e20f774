@@ -51,13 +51,13 @@ public class Cave {
 					null,  
 					choices,  
 					choices[0]);
-			if(pirate == JOptionPane.YES_OPTION) // Look around before approching
+			if(pirate == JOptionPane.YES_OPTION)
 			{
-				JOptionPane.showMessageDialog(null, "HI!"); 
+				JOptionPane.showMessageDialog(null, "HI!");
 			}
-			if(pirate == JOptionPane.NO_OPTION) // Approch pirate
+			if(pirate == JOptionPane.NO_OPTION)
 			{
-				JOptionPane.showMessageDialog(null, "hi2"); 
+				JOptionPane.showMessageDialog(null, "hi2");
 			}
 		}
 
