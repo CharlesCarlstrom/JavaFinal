@@ -13,7 +13,7 @@ import java.awt.Component;
  */
 public class Cave {
 
-	public static void cavePath(String userName)
+	public static void cavePath() 
 	{
 		JOptionPane.showMessageDialog(null, "You walk into the cave. The cave you notcie had a recant cave in.");
 		JOptionPane.showMessageDialog(null, "You see a couple barrels of gunpowder. That might help get through this...or it might not.");
@@ -32,7 +32,7 @@ public class Cave {
 		{
 			JOptionPane.showMessageDialog(null, "Seeing the way the cave is you think it would be easier and faster to use the gunpowder.");
 			JOptionPane.showMessageDialog(null, "You light the barrels and turn to run away. As you start running your foot gets caught on a rock and you stumble!");
-			JOptionPane.showMessageDialog(null, "The gunpowder blows up! You being right in the path get blow to smithereens!! R.I.P " +userName ); // Add userName
+			JOptionPane.showMessageDialog(null, "The gunpowder blows up! You being right in the path get blow to smithereens!! R.I.P " ); // Add userName
 		}
 		if(Gunpowder == JOptionPane.NO_OPTION) // Find a different path
 		{
