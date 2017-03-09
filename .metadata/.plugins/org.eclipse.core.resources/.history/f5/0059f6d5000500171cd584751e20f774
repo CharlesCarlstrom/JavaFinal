@@ -40,7 +40,7 @@ public class AdventureGame
 				options[0]); 
 		if(CaveAndForest == JOptionPane.YES_OPTION) // Cave
 		{
-			Cave.cavePath(userName);
+			Cave.cavePath();
 		}
 		if(CaveAndForest == JOptionPane.NO_OPTION) // Forest
 		{
