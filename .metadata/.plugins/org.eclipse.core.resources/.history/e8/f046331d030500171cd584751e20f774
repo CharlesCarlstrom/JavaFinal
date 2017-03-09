@@ -43,21 +43,21 @@ public class Cave {
 			Object[] choices = {"Look around before approching",
 	        "Approach the pirate"};
 			Component frame2 = null;
-			int pirate = JOptionPane.showOptionDialog(frame2,
+			int pirate = JOptionPane.showOptionDialog(frame,
 					"Look around or Approach Him?",
 					"Pirate Question",
 					JOptionPane.YES_NO_OPTION,
 					JOptionPane.PLAIN_MESSAGE,
 					null,  
-					choices,  
-					choices[0]);
-			if(pirate == JOptionPane.YES_OPTION) // Look around before approching
+					options,  
+					options[0]);
+			if(pirate == JOptionPane.YES_OPTION)
 			{
-				JOptionPane.showMessageDialog(null, "HI!"); 
+				JOptionPane.showMessageDialog(null, "HI!");
 			}
-			if(pirate == JOptionPane.NO_OPTION) // Approch pirate
+			if(pirate == JOptionPane.NO_OPTION)
 			{
-				JOptionPane.showMessageDialog(null, "hi2"); 
+				JOptionPane.showMessageDialog(null, "hi2");
 			}
 		}
 
